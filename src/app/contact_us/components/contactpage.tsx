@@ -287,7 +287,7 @@ const ContactPage = () => {
                   value={formData.fullName}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border border-gray-300 bg-green-50/50 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-                  placeholder="Bharani"
+                  placeholder="John Doe"
                 />
               </div>
               <div>
@@ -299,7 +299,7 @@ const ContactPage = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border border-gray-300 bg-green-50/50 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-                  placeholder="bharani2002@gmail.com"
+                  placeholder="Johndoe123@gmail.com"
                 />
               </div>
               <div>
@@ -311,7 +311,7 @@ const ContactPage = () => {
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border border-gray-300 bg-green-50/50 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-                  placeholder="9996669966"
+                  placeholder="1122334455"
                 />
               </div>
               <div>

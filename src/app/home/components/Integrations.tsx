@@ -42,13 +42,13 @@ const FavouriteTools = () => {
   const rows = Array(10).fill(null);
 
   return (
-    <section className="bg-gray-50 w-full min-h-screen">
-      <div className="w-10/12 h-full mx-auto flex justify-start items-center gap-5">
-        <div className="w-1/2 min-h-[40rem] flex flex-col justify-center items-center">
-          <div className="spcae-y-3">
+    <section className="bg-gray-50 w-full min-h-screen ">
+      <div className="lg:w-10/12 h-full mx-auto flex justify-start items-center gap-5">
+        <div className="lg:w-1/2 min-h-[40rem] flex flex-col justify-center items-center">
+          <div className="space-y-3">
             <h3 className="text-green-600 font-medium">Integrations</h3>
             <h2 className="text-5xl font-bold mt-4 mb-4">
-              Powerful Tools for <br /> Digital Excellence
+              Powerful Tools for<br /> Digital Excellence
             </h2>
             <p className="text-gray-600 mb-8">
               Enhance productivity, streamline processes, and keep<br />

@@ -45,8 +45,6 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -76,6 +74,8 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
 }
 
 .dark {
@@ -130,7 +130,6 @@
    }
  }
 
-
 @keyframes ripple {
   0%,
   100% {
@@ -150,25 +149,24 @@
     width: 5px; /* Width of the scrollbar */
     height: 5px; /* Height of the scrollbar */
   }
-  
+
   ::-webkit-scrollbar-track {
     background:#ffffff00; /* Track color */
   }
-  
+
   ::-webkit-scrollbar-thumb {
     background-color: #00ff2a; /* Thumb color */
     border-radius: 10px; /* Rounded corners for the thumb */
   }
-  
+
   ::-webkit-scrollbar-thumb:hover {
     background: #03af45; /* Thumb color on hover */
   }
-  
+
   .scrollbar-hide {
     scrollbar-width: thin; /* Makes scrollbar thin in Firefox */
     scrollbar-color: var(--primary) var(--background); /* Thumb and track color in Firefox */
   }
-
 
   .team-member-card::-webkit-scrollbar {
     display: none;

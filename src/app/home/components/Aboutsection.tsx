@@ -63,7 +63,7 @@ const Aboutsection = () => {
 
         <Link href="/about">
           <Button 
-            className="bg-gradient-to-b from-gray-800 to-gray-900 text-white hover:bg-slate-800 px-6 sm:px-10 py-4 sm:py-6 rounded-full text-sm sm:text-md font-medium"
+            className="cursor-pointer bg-gradient-to-b from-gray-800 to-gray-900 text-white hover:bg-slate-800 px-6 sm:px-10 py-4 sm:py-6 rounded-full text-sm sm:text-md font-medium"
           >
             About Us
           </Button>

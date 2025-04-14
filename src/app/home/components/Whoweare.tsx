@@ -418,7 +418,7 @@ const Whoweare = () => {
       <path d="M12 15v3" />
     </svg>
   );
-  
+
 
 
   return (
@@ -436,101 +436,100 @@ const Whoweare = () => {
           {/* <h1 className="text-[42px] font-semibold text-gray-900 mb-4 mt-2">
            
           </h1> */}
-          <TextGenerateEffect words="Driven to Conquer Challenges"  as="h1"  className="text-[42px] font-semibold text-black mb-4 mt-2"/>
+          <TextGenerateEffect words="Driven to Conquer Challenges" as="h1" className="text-[42px] font-semibold text-black mb-4 mt-2" />
           <div className="text-gray-700 text-lg">
-          We tackle challenges head on, delivering innovative and impactful digital solutions.
+            We tackle challenges head on, delivering innovative and impactful digital solutions.
           </div>
         </header>
 
-        <div className="flex flex-wrap items-center justify-center bg-gray-100/80 md:justify-between w-full max-w-[1240px] mx-auto px-6 py-1 md:rounded-full rounded-lg gap-4">
-        {iconItems.map((text, index) => (
+        <div className="flex flex-wrap items-center justify-center border border-gray-300 bg-gray-100 md:justify-between w-full max-w-[1240px] mx-auto px-2 py-2 md:rounded-full rounded-lg ">          {iconItems.map((text, index) => (
           <div
             key={index}
             onClick={() => setActiveIndex(index)}
-            className={`flex items-center gap-3 px-2 py-2 rounded-full cursor-pointer transition-all ${
-              activeIndex === index ? "bg-green-100/80 shadow-md" : "bg-transparent"
-            }`}
+            className={`flex items-center gap-3 px-10 py-2 rounded-full cursor-pointer transition-all ${activeIndex === index ? "bg-[#f6fff7] text-[#3fa740] border border-gray-300" : "bg-transparent"
+              // className={`flex items-center gap-3 px-2 py-2 rounded-full cursor-pointer transition-all ${activeIndex === index ? "bg-green-100/80 border" : "bg-transparent"
+              }`}
           >
             <div className="px-1 rounded-full flex items-center justify-center">
-              <CalendarIcon className={activeIndex === index ? "text-green-600" : "text-black"}  />
+              <CalendarIcon className={activeIndex === index ? "text-green-600" : "text-black"} />
             </div>
-            <div className= {`text-black text-sm font-medium ${activeIndex === index ? "bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent" : "text-black"}`}>{text}</div>
+            <div className={`text-black text-sm font-medium ${activeIndex === index ? "bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent" : "text-black"}`}>{text}</div>
             {/* {`text-black text-sm font-medium ${activeIndex === index ? "bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent" : "text-black"}`} */}
             {/* "text-black text-sm font-medium" */}
           </div>
         ))}
+        </div>
+        <section className="flex flex-col md:flex-row justify-between  gap-[60px] flex-wrap md:items-start px-6 pt-16 md:pt-24">
+          {/* Feature Text Content */}
+          <AnimatePresence mode="wait">
+            {featureData[activeIndex] && (
+              <motion.div
+                key={`feature-${activeIndex}`}
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 50 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+                className="flex-1 min-w-[300px] pt-5"
+              >
+                <div className="bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent text-xl md:text-3xl font-semibold mb-3">
+                  {featureData[activeIndex].title}
+                </div>
+                <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+                  {featureData[activeIndex].subtitle}
+                </h2>
+                <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                  {featureData[activeIndex].description}
+                </p>
+                <Link
+                  href={featureData[activeIndex].cta.href}
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition-all"
+                >
+                  {featureData[activeIndex].cta.text}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </Link>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          {/* Feature Image */}
+          <AnimatePresence mode="wait">
+            {featureData[activeIndex] && (
+              <motion.div
+                key={`image-${activeIndex}`}
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -50 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+                className="w-full md:w-[420px] max-w-full mx-auto"
+              >
+                <div className="relative w-full aspect-square max-w-md mx-auto">
+                  <Image
+                    src={featureData[activeIndex].image.src}
+                    alt={featureData[activeIndex].image.alt}
+                    fill
+                    className="object-cover rounded-xl"
+                    priority
+                  />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </section>
+
+
+
       </div>
-      <section className="flex flex-col md:flex-row justify-between  gap-[60px] flex-wrap md:items-start px-6 pt-16 md:pt-24">
-  {/* Feature Text Content */}
-  <AnimatePresence mode="wait">
-    {featureData[activeIndex] && (
-      <motion.div
-        key={`feature-${activeIndex}`}
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 50 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="flex-1 min-w-[300px] pt-5"
-      >
-        <div className="bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent text-xl md:text-3xl font-semibold mb-3">
-          {featureData[activeIndex].title}
-        </div>
-        <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
-          {featureData[activeIndex].subtitle}
-        </h2>
-        <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          {featureData[activeIndex].description}
-        </p>
-        <Link
-          href={featureData[activeIndex].cta.href}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition-all"
-        >
-          {featureData[activeIndex].cta.text}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fillRule="evenodd"
-              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </Link>
-      </motion.div>
-    )}
-  </AnimatePresence>
-
-  {/* Feature Image */}
-  <AnimatePresence mode="wait">
-    {featureData[activeIndex] && (
-      <motion.div
-        key={`image-${activeIndex}`}
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -50 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="w-full md:w-[420px] max-w-full mx-auto"
-      >
-        <div className="relative w-full aspect-square max-w-md mx-auto">
-          <Image
-            src={featureData[activeIndex].image.src}
-            alt={featureData[activeIndex].image.alt}
-            fill
-            className="object-cover rounded-xl"
-            priority
-          />
-        </div>
-      </motion.div>
-    )}
-  </AnimatePresence>
-</section>
-
-
-      
-    </div>
     </main>
   );
 };

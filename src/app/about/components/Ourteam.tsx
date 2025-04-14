@@ -282,6 +282,11 @@ const OurTeam: React.FC = () => {
 
       <div className="relative max-w-7xl mx-auto">
         <div
+          style={{
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+         
+          }}
           ref={carouselRef}
           className="flex gap-5 overflow-x-auto scroll-smooth hide-scrollbar px-4"
         >

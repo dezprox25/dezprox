@@ -364,7 +364,7 @@ export default function TestimonialSection2() {
               </p>
 
             </div>
-            <div className="absolute md:bottom-10 md:-right-20 bottom-10 right-0 w-[40%] sm:w-[35%] md:w-[50%] h-auto flex items-end justify-end">
+            <div className="absolute md:bottom-10 md:-right-20 bottom-10 right-0 w-[40%] sm:w-[35%] md:w-[50%] h-auto flex items-end justify-end scale-110 z-10">
               <motion.img src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105164/Robot2_r3kem8.png" animate={{ y: [0, -20, 0] }} // Moves up & down
                 transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }} alt="Cute robot mascot" width={200} height={200} className="object-contain" />
             </div>
@@ -437,7 +437,7 @@ export default function TestimonialSection2() {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                <div className="swiper-pagination flex gap-1 lg:mt-5 mt-16 ml-5"></div>
+                {/* <div className="swiper-pagination flex gap-1 lg:mt-5 mt-16 ml-5"></div> */}
               </div>
               {/* <div className="swiper-pagination absolute bottom-14 left-10 right-0 space-x-2 mx-auto flex justify-center"></div> */}
               {/* Custom pagination container at the bottom */}
