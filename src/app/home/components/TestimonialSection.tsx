@@ -260,6 +260,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
+import Image from "next/image";
 const CustomLogo = () => {
   return (
     <svg
@@ -344,7 +345,9 @@ export default function TestimonialSection2() {
       <div className="flex flex-col md:flex-row gap-6 items-center md:items-stretch">
         {/* Left Section */}
         <div className="relative lg:w-4/6 md:w-3/6 sm:w-5/6  w-full ">
-          <img
+          <Image
+          width={1280}
+          height={800}
             src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105164/Greenbg_Final_tkvvtb.png"
             alt="Green background"
             className="w-full h-80   rounded-3xl "
@@ -373,7 +376,9 @@ export default function TestimonialSection2() {
 
         {/* Right Section - Swiper Carousel */}
         <div className="relative w-full sm:w-5/6  ">
-          <img
+          <Image
+          width={1280}
+          height={800}
             src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/yellowbg_Final_d16ptn.png"
             alt="Yellow background"
             className="w-full h-80  rounded-3xl"

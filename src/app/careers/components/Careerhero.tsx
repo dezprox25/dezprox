@@ -110,7 +110,7 @@ const Herosection_careers = () => {
             collaboration, and making a real impact.
           </p>
 
-          <div>
+          <div className="hidden">
             <Link href="#open-roles">
             <button className="bg-gradient-to-b from-green-600 to-green-700 text-white px-8 py-3 rounded-full inline-flex items-center transition-colors duration-300">
               See Open Roles
