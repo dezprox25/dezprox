@@ -461,26 +461,25 @@ export default function NavbarDemo() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Login
-              </NavbarButton>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                <a href="https://wa.me/918072818574?text=Hi%20Dezprox%2C%20I%20saw%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener noreferrer">          <button
-                  className={`fixed bottom-8 right-8 w-[45px] h-[45px] bg-gray-300 flex items-center justify-center rounded-full cursor-pointer border-none group `}
-                >
-                  <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="logo" width={30} height={30} />
 
-                </button>
-                </a>
-              </NavbarButton>
+              <a
+                className=""
+                href="https://wa.me/918072818574?text=Hi%20Dezprox%2C%20I%20saw%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener noreferrer">
+
+                <NavbarButton
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  variant="primary"
+                  className="w-full  h-20 flex justify-start items-center gap-5"
+                >
+                  <button
+                    className={`w-[45px] h-[45px] bg-gray-300 flex items-center justify-center rounded-full cursor-pointer border-none group `}
+                  >
+                    <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="logo" width={30} height={30} />
+
+                  </button>
+                  <h1 className="text-green-500">WhatsApp</h1>
+                </NavbarButton>
+              </a>
             </div>
           </MobileNavMenu>
         </MobileNav>
