@@ -77,7 +77,7 @@ const Ourteam = () => {
 
               </div>
               <div className='z-40 w-full bg-gradient-to-t from-black via-black/50 to-transparent relative min-h-40 -top-40 space-y-4 p-5'>
-                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover's Feast is everything a carnivore dreams of, loaded
+                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover&apos;s Feast is everything a carnivore dreams of, loaded
                   with perfectly cooked meats and balanced with just the right amount of
                   sauce. This is pizza at its finest.&apos;</p>
                 <h1 className='text-white text-xl font-bold'>{teamMembers[(currentImage - 2 + teamMembers.length) % teamMembers.length].name} </h1>
