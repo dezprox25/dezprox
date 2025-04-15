@@ -4,7 +4,6 @@ import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import { Code2, Cpu, Database, Globe, Layout, Shield } from 'lucide-react';
 
 
 const cards = [

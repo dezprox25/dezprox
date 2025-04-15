@@ -6,7 +6,7 @@ import Link from "next/link";
 const services = [
   { id: 1, name: "Service A" },
   { id: 2, name: "Service B" },
-  { id: 1, name: "Service C" }, // Duplicate ID!  This is the problem
+  { id: 3, name: "Service C" }, // Corrected: Unique ID
 ];
 
 const FooterSection = () => {
@@ -73,7 +73,7 @@ const FooterSection = () => {
                     href={linkObj.link}
                     className={cn(
                       'text-gray-400 hover:text-white transition duration-200',
-                      path === linkObj.link 
+                      path === linkObj.link
                     )}
                   >
                     {linkObj.name}
@@ -110,13 +110,13 @@ const FooterSection = () => {
             © {new Date().getFullYear()} Dezprox. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="[https://facebook.com](https://facebook.com)" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <span className="text-gray-400 hover:text-white">Facebook</span>
             </a>
-            <a href="[https://instagram.com](https://instagram.com)" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <span className="text-gray-400 hover:text-white">Instagram</span>
             </a>
-            <a href="[https://linkedin.com](https://linkedin.com)" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <span className="text-gray-400 hover:text-white">LinkedIn</span>
             </a>
           </div>
@@ -125,7 +125,7 @@ const FooterSection = () => {
 
       <div>
         {services.map((service) => (
-          <div key={service.id}> //  Key is not unique!
+          <div key={service.id}>
             {service.name}
           </div>
         ))}

@@ -3,7 +3,6 @@ import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
-import { motion } from "framer-motion";
 
 const teamMembers = [
   {
@@ -45,7 +44,7 @@ const teamMembers = [
 
 const Ourteam = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const [direction, setDirection] = useState(0);
+  const [, setDirection] = useState(0);
 
   const nextImage = useCallback(() => {
     setDirection(1);
@@ -57,26 +56,7 @@ const Ourteam = () => {
     setCurrentImage((prev) => (prev - 1 + teamMembers.length) % teamMembers.length);
   }, [teamMembers.length]);
 
-  const imageVariants = {
-    enter: (direction: number) => {
-      return {
-        x: direction > 0 ? 1000 : -1000,
-        opacity: 0,
-      };
-    },
-    center: {
-      zIndex: 1,
-      x: 0,
-      opacity: 1,
-    },
-    exit: (direction: number) => {
-      return {
-        zIndex: 0,
-        x: direction < 0 ? -1000 : 1000,
-        opacity: 0,
-      };
-    },
-  };
+ 
 
   return (
     <section className='h-screen bg-black w-full p-5 overflow-hidden'>
@@ -119,7 +99,7 @@ const Ourteam = () => {
                 </p>
               </div>
               <div className='z-40 w-full bg-gradient-to-t from-black via-black/50 to-transparent relative min-h-40 -top-40 space-y-4 p-5'>
-                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover's Feast is everything a carnivore dreams of, loaded
+                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover&apos;s Feast is everything a carnivore dreams of, loaded
                   with perfectly cooked meats and balanced with just the right amount of
                   sauce. This is pizza at its finest.&apos;</p>
                 <h1 className='text-white text-xl font-bold'>{teamMembers[(currentImage - 1 + teamMembers.length) % teamMembers.length].name} </h1>
@@ -156,7 +136,7 @@ const Ourteam = () => {
               </div>
 
               <div className='z-40 w-full bg-gradient-to-t from-black via-black/90 to-black/5 relative min-h-40 -top-40 space-y-4 p-2'>
-                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover's Feast is everything a carnivore dreams of, loaded
+                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover&apos;s Feast is everything a carnivore dreams of, loaded
                   with perfectly cooked meats and balanced with just the right amount of
                   sauce. This is pizza at its finest.&apos;</p>
                 <h1 className='text-white text-xl font-bold'>{teamMembers[currentImage].name} </h1>
@@ -177,7 +157,7 @@ const Ourteam = () => {
 
               </div>
               <div className='z-40 w-full bg-gradient-to-t from-black via-black/50 to-transparent relative min-h-40 -top-40 space-y-4 p-5'>
-                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover's Feast is everything a carnivore dreams of, loaded
+                <p className='text-white text-start text-[0.6rem]'>&apos;The Meat Lover&apos;s Feast is everything a carnivore dreams of, loaded
                   with perfectly cooked meats and balanced with just the right amount of
                   sauce. This is pizza at its finest.&apos;</p>
                 <h1 className='text-white text-xl font-bold'>{teamMembers[(currentImage + 1) % teamMembers.length].name} </h1>
@@ -190,9 +170,6 @@ const Ourteam = () => {
                   Our team of innovators, designers, and strategists collaborate to craft impactful digital experiences that drive success and transformation.
                 </p>
               </div> */}
-
-
-
           </div>
         </div>
       </div >

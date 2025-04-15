@@ -383,7 +383,7 @@ import {
 import Image from "next/image";
 
 // import { getCalApi } from "@calcom/embed-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function NavbarDemo() {
   const navItems = [
