@@ -123,7 +123,7 @@ const FooterSection = () => {
         </div>
       </footer>
 
-      <div>
+      <div className="hidden">
         {services.map((service) => (
           <div key={service.id}>
             {service.name}
