@@ -253,7 +253,7 @@ const Vision = () => {
               onClick={() => toggleSection('vision')}
             >
               <motion.h2
-                className="text-gray-900 font-semibold text-2xl sm:text-3xl md:text-4xl"
+                className="text-gray-900 font-semibold text-2xl sm:text-3xl md:text-4xl "
                 whileHover={{ x: 4 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >

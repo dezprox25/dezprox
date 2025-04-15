@@ -3,7 +3,7 @@ import Title from '@/Components/ui/title';
 import { TextGenerateEffect } from '@/Components/ui/text-generate-effect';
 const Ourvalues = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4 py-16 mb-20  sm:px-6 lg:px-8">
       {/* Header with icon */}
       <div className="flex justify-center items-center mb-8">
         <span className="text-green-400 gap-2 font-medium text-xl flex items-center">
