@@ -2,44 +2,185 @@
 import React from "react";
 import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import { Code2, Cpu, Database, Globe, Layout, Shield } from 'lucide-react';
 
+
 const cards = [
   {
-    icon: <Globe className="w-6 h-6 text-blue-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011280/adobe-illustrator_jzxmvi.svg",
     title: "Global Network",
     description: "Connect worldwide instantly"
   },
   {
-    icon: <Shield className="w-6 h-6 text-green-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011280/AWS_udx4rw.svg",
     title: "Security First",
     description: "Enterprise-grade protection"
   },
   {
-    icon: <Code2 className="w-6 h-6 text-purple-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011280/Adobe-after-effects_lc3ezv.svg",
     title: "Clean Code",
     description: "Modern development practices"
   },
   {
-    icon: <Database className="w-6 h-6 text-red-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011280/adobe-xd_lx9l1e.svg",
     title: "Cloud Storage",
     description: "Unlimited secure storage"
   },
   {
-    icon: <Layout className="w-6 h-6 text-yellow-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011279/wordpress_g32vap.svg",
     title: "Smart Layout",
     description: "Responsive design system"
   },
   {
-    icon: <Cpu className="w-6 h-6 text-indigo-500" />,
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011272/Shopify_vy5lqd.svg",
     title: "AI Powered",
     description: "Intelligent automation"
-  }
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011274/wix_pvwjb6.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011273/squarespace_jqrlsv.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011273/Sketch_wmthx5.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011273/webflow_x24kwq.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011273/webflow_x24kwq.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011272/Semrush_yoqult.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011272/react_native_btzdpy.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/mongodb_srjo3f.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/mailchimp-freddie_yltn4h.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011271/nodejs_zllbuz.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/javascript_flckrz.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/javascript_flckrz.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/magento_ddvdhh.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011270/kotlin_fyikfe.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011269/java_cp9mza.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/Jasper-ai_vnymcv.svg",
+    title: "Cloud Storage",
+    description: "Unlimited secure storage"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/Jasper-ai_vnymcv.svg",
+    title: "Smart Layout",
+    description: "Responsive design system"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/google-analytics_ov37nj.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/Hootsuite-icon_mw6xox.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/html-5_lcmtsd.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/grammarly_kqg1ft.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011268/firebase_analytics_cvrbdh.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011267/css3_jfcybg.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011267/Canva_vgugvh.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011267/Framer_yyh2ax.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011267/Buffer_l7vw3g.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011266/flutter_ayrefm.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
+  {
+    icon: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744011266/bootstrap_e0xcw5.svg",
+    title: "AI Powered",
+    description: "Intelligent automation"
+  },
 ];
-
 const FavouriteTools = () => {
-  const rows = Array(10).fill(null);
+  const rows = Array(20).fill(null);
 
   return (
     <section className="bg-gray-50 w-full min-h-screen ">
@@ -47,8 +188,8 @@ const FavouriteTools = () => {
         <div className="lg:w-1/2 min-h-[40rem] flex flex-col justify-center items-center">
           <div className="space-y-3">
             <h3 className="text-green-600 font-medium">Integrations</h3>
-            <h2 className="text-5xl font-bold mt-4 mb-4">
-              Powerful Tools for<br /> Digital Excellence
+            <h2 className="lg:text-5xl text-2xl font-bold mt-4 mb-4">
+              Powerfull Tools for<br /> Digital Excellence
             </h2>
             <p className="text-gray-600 mb-8">
               Enhance productivity, streamline processes, and keep<br />
@@ -79,30 +220,22 @@ const FavouriteTools = () => {
                     {/* First set of cards */}
                     <div className="flex flex-col gap-4">
                       {rows.map((_, rowIndex) => {
-                        const card = cards[rowIndex % cards.length];
+                        // Calculate the card index based on column and row
+                        const cardIndex = (colIndex * rows.length + rowIndex) % cards.length;
+                        const card = cards[cardIndex];
+
                         return (
                           <div
                             key={`col-${colIndex}-row-${rowIndex}`}
-                            className="w-full bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-xl p-4 border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-lg hover:shadow-white/5"
+                            className="w-full bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-xl p-4  transition-all duration-300 hover:shadow-lg hover:shadow-white/5"
                           >
-                            <div className="p-2 bg-gradient-to-br border-2 from-white/10 to-white/5 rounded-lg w-fit mb-2">
-                              {card.icon}
-                            </div>
-                          </div>
-                        );
-                      })}
-                    </div>
-                    {/* Duplicate set for seamless loop */}
-                    <div className="flex flex-col gap-4">
-                      {rows.map((_, rowIndex) => {
-                        const card = cards[rowIndex % cards.length];
-                        return (
-                          <div
-                            key={`col-${colIndex}-row-${rowIndex}-dup`}
-                            className="w-full bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-xl p-4 border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-lg hover:shadow-white/5"
-                          >
-                            <div className="p-2 bg-gradient-to-br border from-white/10 to-white/5 rounded-lg w-fit mb-2">
-                              {card.icon}
+                            <div className="p-2  rounded-lg w-fit mb-2">
+                              <Image
+                                src={card.icon}
+                                alt={card.title}
+                                width={30}
+                                height={30}
+                              />
                             </div>
                           </div>
                         );
@@ -120,3 +253,5 @@ const FavouriteTools = () => {
 };
 
 export default FavouriteTools;
+
+

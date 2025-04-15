@@ -312,72 +312,72 @@ const featureData = [
     }
   },
   {
-    title: "Streamline. Collaborate. Succeed.",
-    subtitle: "Empowering Teams with Seamless Workflow",
+    title: "Authenticity Builds Trust.",
+    subtitle: "Real Solutions, Genuine Impact",
     description:
-      "Our platform simplifies task management and enhances team communication. Experience efficient collaboration and real-time updates all in one place.",
+      "We believe in transparency, honesty and delivering value driven experiences. At Dezprox, authenticity shapes our work, fostering trust and long lasting relationships.",
     cta: {
       text: "Explore Features",
       href: "#features"
     },
     image: {
-      src: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Whoweare_js3guv.png",
-      alt: "Team working together in a collaborative office environment"
+      src: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744704222/authentic_i79mk3.png",
+      alt: " Team working together in a collaborative office environment"
     }
   },
   {
-    title: "Secure. Reliable. Scalable.",
-    subtitle: "Infrastructure You Can Trust",
+    title: "Disrupt. Redefine. Revolutionize.",
+    subtitle: "Breaking Norms, Redefining Standards",
     description:
-      "From small startups to large enterprises, our robust infrastructure ensures your services are always available, secure, and built to grow with you.",
+      "We challenge the status quo, rethink the ordinary, and create solutions that revolutionize industries. At Dezprox, disruption is our DNA.",
     cta: {
       text: "Get Started",
       href: "#get-started"
     },
     image: {
-      src: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Whoweare_js3guv.png",
+      src: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744704219/disriputive_nghyts.png",
       alt: "Cloud infrastructure with secure network visuals"
     }
   },
   {
-    title: "Insightful. Actionable. Powerful.",
-    subtitle: "Turn Data into Decisions",
+    title: "See Beyond Today.",
+    subtitle: "Shaping the Future, Today",
     description:
-      "Gain valuable insights through intelligent analytics dashboards. Empower your team with real-time data that drives smarter decisions.",
+      "We see beyond trends, crafting strategies that anticipate the future. At Dezprox, we create tomorrow’s digital experiences, today.",
     cta: {
       text: "View Analytics",
       href: "#analytics"
     },
     image: {
-      src: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Whoweare_js3guv.png",
+      src: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744704218/visionary_evknja.png",
       alt: "Analytics dashboard with graphs and performance metrics"
     }
   },
   {
-    title: "Insightful. Actionable. Powerful.",
-    subtitle: "Turn Data into Decisions",
+    title: "Plan. Execute. Succeed.",
+    subtitle: "Precision, Planning, Performance",
     description:
-      "Gain valuable insights through intelligent analytics dashboards. Empower your team with real-time data that drives smarter decisions.",
+      "Every move we make is calculated, every design purposeful. At Dezprox, we blend strategy and creativity to drive measurable success.",
     cta: {
       text: "View Analytics",
       href: "#analytics"
     },
     image: {
-      src: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Whoweare_js3guv.png",
+      src: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744704225/statergic_kd9q8o.png",
       alt: "Analytics dashboard with graphs and performance metrics"
     }
   },
   {
-    title: "Insightful. Actionable. Powerful.",
-    subtitle: "Turn Data into Decisions",
+    title: "Fearless. Bold. Limitless.",
+    subtitle: "Daring to Create the Extraordinary",
     description:
-      "Gain valuable insights through intelligent analytics dashboards. Empower your team with real-time data that drives smarter decisions.",
+      "We take bold steps, embrace challenges, and turn risks into rewards. At Dezprox, fear has no place only limitless potential.",
     cta: {
       text: "View Analytics",
       href: "#analytics"
     },
     image: {
-      src: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Whoweare_js3guv.png",
+      src: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744704223/fearless_wl5jpa.png",
       alt: "Analytics dashboard with graphs and performance metrics"
     }
   }
@@ -429,14 +429,14 @@ const Whoweare = () => {
       />
       <div className="max-w-[1200px] mx-auto px-5 py-[60px]">
         {/* Header */}
-        <header className="text-center mb-[60px]">
-          <div className="bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent font-semibold lg:text-2xl text-xl mb-6">
+        <header className="text-center mb-[20px]">
+          <div className="bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent font-semibold lg:text-2xl text-xl">
             Who we are
           </div>
           {/* <h1 className="text-[42px] font-semibold text-gray-900 mb-4 mt-2">
            
           </h1> */}
-          <TextGenerateEffect words="Driven to Conquer Challenges" as="h1" className="text-[42px] font-semibold text-black mb-4 mt-2" />
+          <TextGenerateEffect words="Driven to Conquer Challenges" as="h1" className="text-[42px] font-semibold text-black" />
           <div className="text-gray-700 text-lg">
             We tackle challenges head on, delivering innovative and impactful digital solutions.
           </div>
@@ -469,7 +469,7 @@ const Whoweare = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 50 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
-                className="flex-1 min-w-[300px] pt-5"
+                className="flex-1 max-w-[578px]  pt-5"
               >
                 <div className="bg-gradient-to-b from-green-700  to-green-500 bg-clip-text text-transparent text-xl md:text-3xl font-semibold mb-3">
                   {featureData[activeIndex].title}
@@ -511,7 +511,7 @@ const Whoweare = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
-                className="w-full md:w-[420px] max-w-full mx-auto"
+                className="w-full md:w-[380px] max-w-full mx-auto"
               >
                 <div className="relative w-full aspect-square max-w-md mx-auto">
                   <Image

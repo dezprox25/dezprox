@@ -24,7 +24,7 @@ const Productsection = () => {
               <div className="bg-black rounded-3xl h-full w-full p-2">
                 {/* Placeholder for School ERP image */}
                 <div className=" w-full h-full rounded-2xl flex items-center justify-center">
-                  <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743619052/Product_iamge_kkkw7p.png" alt="" className="h-full w-full object-cover rounded-2xl" />
+                  <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743619052/Product_iamge_kkkw7p.png" alt="Dezprox_product" className="h-full w-full object-cover rounded-2xl" />
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Productsection = () => {
 
                 <div className="col-span-1">
                   <div className="bg-gray-200 h-full  w-full flex items-center justify-center">
-                    <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743619372/product_clg_uedmza.png" alt="" className="w-full  h-full object-center hidden lg:block " />
+                    <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743619372/product_clg_uedmza.png" alt="Dezprox_product" className="w-full  h-full object-center hidden lg:block " />
                   </div>
                 </div>
               </div>

@@ -26,7 +26,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building responsive websites.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021670/Graphic_Design_1_jgyfyf.png" alt="Icon" className="h-64" />
+            <Image width={600} height={600} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021670/Graphic_Design_1_jgyfyf.png" alt="Dezprox Graphic Design illustration" className="h-64" />
           </div>
         </div>
 
@@ -37,7 +37,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Designing user-friendly interfaces.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/ui-ux_service_1_q67awr.png" alt="Icon" className="h-60" />
+            <Image width={600} height={600} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/ui-ux_service_1_q67awr.png" alt=" dezprox UI UX desgin illustration" className="h-60" />
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building scalable online stores.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/Web_Development_1_eaziqy.png" alt="Icon" className="h-60 w-72" />
+            <Image width={600} height={600} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/Web_Development_1_eaziqy.png" alt="dezprox web development illustration" className="h-60 w-72" />
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Boosting online presence.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500}  src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/App_Development_1_lrtgsw.png" alt="Icon" className="h-48" />
+            <Image width={600} height={600}  src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/App_Development_1_lrtgsw.png" alt="dezprox App developement illustration" className="h-48" />
           </div>
         </div>
 
@@ -70,7 +70,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Crafting unique identities.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500}  src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/Content_Creation_1_fmkrfr.png" alt="Icon" className="h-56" />
+            <Image width={600} height={600}  src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/Content_Creation_1_fmkrfr.png" alt="Icon" className="h-56" />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building powerful apps.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021839/Digital_Marketing_2_wqkzs3.png" alt="Icon" className="h-56" />
+            <Image width={600} height={600} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021839/Digital_Marketing_2_wqkzs3.png" alt="dezprox digital marketing illustration" className="h-56" />
           </div>
         </div>
 
@@ -92,7 +92,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Ensuring smooth performance.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021672/Students_Projects_1_swaldt.png" alt="Icon" className="h-64" />
+            <Image width={600} height={600} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021672/Students_Projects_1_swaldt.png" alt="dezprox Students Projects illustration" className="h-64" />
           </div>
         </div>
       </div>

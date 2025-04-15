@@ -69,7 +69,7 @@ const AboutUs = () => {
         {/* Top Left */}
         <div className="absolute top-[20%] left-[10%] max-lg:top-[15%] max-lg:left-[8%] max-md:top-[12%] max-md:left-[5%]">
           <div className="w-16 h-16 max-lg:w-14 max-lg:h-14 max-md:w-12 max-md:h-12 max-sm:w-10 max-sm:h-10 rounded-full overflow-hidden relative">
-            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_2_ogakty.png" alt="Team member" className="w-full h-full object-cover" />
+            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_2_ogakty.png" alt="Dezprox_Team_member" className="w-full h-full object-cover" />
             {/* <div className="absolute w-2 h-2 bg-green-500 rounded-full right-1 bottom-1"></div> */}
           </div>
         </div>
@@ -77,7 +77,7 @@ const AboutUs = () => {
         {/* Top Right */}
         <div className="absolute top-[20%] right-[10%] max-lg:top-[15%] max-lg:right-[8%] max-md:top-[12%] max-md:right-[5%]">
           <div className="w-16 h-16 max-lg:w-14 max-lg:h-14 max-md:w-12 max-md:h-12 max-sm:w-10 max-sm:h-10 rounded-full overflow-hidden relative">
-            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_5_q62qhc.png" alt="Team member" className="w-full h-full object-cover" />
+            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_5_q62qhc.png" alt="Dezprox_Team_member" className="w-full h-full object-cover" />
             {/* <div className="absolute w-2 h-2 bg-green-500 rounded-full right-1 bottom-1"></div> */}
           </div>
         </div>
@@ -85,14 +85,14 @@ const AboutUs = () => {
         {/* Bottom Left */}
         <div className="absolute bottom-[20%] left-[15%] max-lg:bottom-[15%] max-lg:left-[12%] max-md:bottom-[12%] max-md:left-[8%]">
           <div className="w-16 h-16 max-lg:w-14 max-lg:h-14 max-md:w-12 max-md:h-12 max-sm:w-10 max-sm:h-10 rounded-full overflow-hidden">
-            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_1_mcbigo.png" alt="Team member" className="w-full h-full object-cover" />
+            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_1_mcbigo.png" alt="Dezprox_Team_member" className="w-full h-full object-cover" />
           </div>
         </div>
 
         {/* Middle Left */}
         <div className="absolute top-[40%] left-[15%] max-lg:top-[40%] max-lg:left-[12%] max-md:top-[40%] max-md:left-[8%]">
           <div className="w-16 h-16 max-lg:w-14 max-lg:h-14 max-md:w-12 max-md:h-12 max-sm:w-10 max-sm:h-10 rounded-full overflow-hidden relative">
-            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_3_p9n81d.png" alt="Team member" className="w-full h-full object-cover" />
+            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_3_p9n81d.png" alt="Dezprox_Team_member" className="w-full h-full object-cover" />
             {/* <div className="absolute w-2 h-2 bg-green-500 rounded-full right-1 bottom-1"></div> */}
           </div>
         </div>
@@ -100,7 +100,7 @@ const AboutUs = () => {
         {/* Bottom Right */}
         <div className="absolute bottom-[30%] right-[15%] max-lg:bottom-[25%] max-lg:right-[12%] max-md:bottom-[20%] max-md:right-[8%]">
           <div className="w-16 h-16 max-lg:w-14 max-lg:h-14 max-md:w-12 max-md:h-12 max-sm:w-10 max-sm:h-10 rounded-full overflow-hidden">
-            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_4_fhkuac.png" alt="Team member" className="w-full h-full object-cover" />
+            <Image width={100} height={100} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_4_fhkuac.png" alt="Dezprox_Team_member" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

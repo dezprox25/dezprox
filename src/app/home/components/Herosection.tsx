@@ -9,11 +9,11 @@ import Image from "next/image";
 export default function Thirdhome() {
     return (
         <>
-            <div className="relative w-full flex items-center justify-center px-4 py-10 bg-transparent overflow-hidden">
-                <div className="absolute flex h-[700px] w-full flex-col items-center justify-center  rounded-lg  bg-background">
+            <div className="relative w-full flex min-h-screen items-center justify-center px-4 py-10 bg-transparent overflow-hidden">
+                <div className="absolute flex h-[850px] w-full flex-col items-center justify-center  rounded-lg  bg-background">
                     <Ripple className=" scale-125 top-20" />
                 </div>
-                <div className="relative container mx-auto  max-w-5xl md:px-36 md:py-20 p-20 border border-[#3CB371] flex flex-col items-center text-center">
+                <div className="relative container mx-auto  max-w-5xl md:px-36 md:py-32 -top-10 p-20 border border-[#3CB371] flex flex-col items-center text-center">
                     {/* Green corner squares connected to border lines */}
                     <div className="absolute top-[-10px] left-[-8px] w-4 h-4 bg-[#3CB371]"></div>
                     <div className="absolute top-[-10px] right-[-8px] w-4 h-4 bg-[#3CB371]"></div>
@@ -29,25 +29,25 @@ export default function Thirdhome() {
                     {/* Content */}
                     <div className="max-w-3xl w-full flex flex-col items-center text-center relative z-10">
                         {/* Happy customers badge */}
-                        <div className="flex items-center bg-white border border-gray-200 rounded-full px-4 py-2 mb-8b opacity-0 md:mb-12">
+                        <div className=" items-center bg-white border border-gray-200 rounded-full px-4 py-2 mb-8b hidden md:mb-12">
                           <div className="flex -space-x-2 mr-2">
                             <Image 
                               src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_2_ogakty.png" 
-                              alt="Customer 1" 
+                              alt="Dezprox_Customer1" 
                               width={24} 
                               height={24} 
                               className="rounded-full border-2 border-white"
                             />
                             <Image 
                               src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_3_p9n81d.png" 
-                              alt="Customer 2" 
+                              alt="Dezprox_Customer2" 
                               width={24} 
                               height={24} 
                               className="rounded-full border-2 border-white"
                             />
                             <Image 
                               src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021162/AboutUs_1_mcbigo.png" 
-                              alt="Customer 3" 
+                              alt="Dezprox_Customer3" 
                               width={24} 
                               height={24} 
                               className="rounded-full border-2 border-white"
@@ -141,7 +141,6 @@ export default function Thirdhome() {
                                 </svg>
                                 <div className="bg-gradient-to-b from-purple-600 to-purple-700 text-white text-xs md:text-sm font-medium md:px-6 px-4 py-1 mt-5 md:mt-0 rounded-full flex items-center">
                                     Innovative
-
                                 </div>
                             </motion.div>
                         </div>

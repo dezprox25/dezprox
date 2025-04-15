@@ -26,7 +26,7 @@ const Footertop = () => {
                     width={500}
                     height={500}
                     src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743626470/Robot2_iiy9b2.png"
-                    alt="Robot mascot"
+                    alt="Dezprox_Robot"
                     className="w-[393px] h-[393px] max-lg:w-[300px] max-lg:h-[300px] max-sm:w-[200px] max-sm:h-[200px]"
                 />
             </div>

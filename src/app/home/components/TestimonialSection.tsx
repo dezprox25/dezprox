@@ -338,7 +338,7 @@ export default function TestimonialSection2() {
       <div className="text-center mb-8">
         <p className="text-green-500 font-medium mb-2">Testimonials</p>
         {/* <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Powerful Finance Reporting</h2> */}
-        <TextGenerateEffect words="Powerful Finance Reporting" className="text-3xl md:text-4xl font-bold text-gray-900" as="h1" />
+        <TextGenerateEffect words="Voices of Trust" className="text-3xl md:text-4xl font-bold text-gray-900" as="h1" />
       </div>
 
       {/* Testimonial Content */}
@@ -349,7 +349,7 @@ export default function TestimonialSection2() {
           width={1280}
           height={800}
             src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105164/Greenbg_Final_tkvvtb.png"
-            alt="Green background"
+            alt="Dezprox_testimonial_greenBackground_image"
             className="w-full h-80   rounded-3xl "
           />
           <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-between">
@@ -380,7 +380,7 @@ export default function TestimonialSection2() {
           width={1280}
           height={800}
             src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/yellowbg_Final_d16ptn.png"
-            alt="Yellow background"
+            alt="Dezprox_testimonial_Yellow_background"
             className="w-full h-80  rounded-3xl"
           />
           <div className="absolute inset-0">
@@ -405,7 +405,7 @@ export default function TestimonialSection2() {
                 >
                   {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index}>
-                      <div className="bg-white rounded-xl h-52 sm:h-auto md:h-auto   lg:w-auto lg:h-auto p-4 sm:p-6 shadow-lg">
+                      <div className="bg-white rounded-xl h-52 cursor-grab sm:h-auto md:h-auto   lg:w-auto lg:h-auto p-4 sm:p-6 shadow-lg">
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Greatly done!</h4>
                         <div className="flex mb-2">
                           {[...Array(5)].map((_, i) => (
@@ -436,7 +436,6 @@ export default function TestimonialSection2() {
                             <p className="text-xs text-gray-500">{testimonial.role}</p>
                           </div>
                           <CustomLogo />
-
                         </div>
                       </div>
                     </SwiperSlide>
@@ -446,7 +445,6 @@ export default function TestimonialSection2() {
               </div>
               {/* <div className="swiper-pagination absolute bottom-14 left-10 right-0 space-x-2 mx-auto flex justify-center"></div> */}
               {/* Custom pagination container at the bottom */}
-
               <div className="w-60 h-10 cursor-pointer  mx-auto justify-center items-center relative -bottom-5 sm:-bottom-7 md:-bottom-7  lg:-bottom-5 gap-2 left-12  sm:left-15  md:left-18   flex ">
                 <div className="w-7 h-7 bg-[#FF4400] rounded-full flex items-center justify-center">
                   <ArrowRight className="w-4 h-4" />
@@ -457,24 +455,24 @@ export default function TestimonialSection2() {
           </div>
         </div>
       </div>
-      <style jsx global>{`
-        .swiper-pagination-bullet {
-    background-color: rgba(220, 38, 38, 10) !important;
-    opacity: 1;
-    transition: all 0.3s ease;
-  }
-
-  .swiper-pagination-bullet-active {
-    width: 30px;
-    border-radius: 10px;
-    background-color: rgb(220, 38, 38) !important;
-    animation: slideIn 0.5s ease-out forwards;
-  }
-
-  .swiper-pagination-bullet-active-out {
-    animation: slideOut 0.5s ease-out forwards;
-  }
-      `}</style>
+      <style jsx global>
+        {`
+            .swiper-pagination-bullet {
+              background-color: rgba(220, 38, 38, 10) !important;
+              opacity: 1;
+              transition: all 0.3s ease;
+            }
+            .swiper-pagination-bullet-active {
+              width: 30px;
+              border-radius: 10px;
+              background-color: rgb(220, 38, 38) !important;
+              animation: slideIn 0.5s ease-out forwards;
+            }
+            .swiper-pagination-bullet-active-out {
+              animation: slideOut 0.5s ease-out forwards;
+            }
+        `}
+      </style>
     </div>
   )
 }

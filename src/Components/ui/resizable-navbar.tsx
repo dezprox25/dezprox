@@ -237,7 +237,7 @@ export const NavbarLogo = () => {
     >
       <Image
         src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1743664757/Company_Logo_amynuq.png"
-        alt="logo"
+        alt="DEzprox_logo"
         width={100}
         height={100}
       />

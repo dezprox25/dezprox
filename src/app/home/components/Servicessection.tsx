@@ -407,13 +407,13 @@ const Servicessection = () => {
   ];
   return (
     <section className='min-h-screen w-full bg-[#f6fff7] p-3 md:p-5 space-y-3 md:space-y-5'>
-      <div className='flex flex-col justify-center items-center sticky top-10 space-y-3 md:space-y-5 py-4'>
+      <div className='flex flex-col justify-center items-center sticky top-16  py-4'>
         <h1 className='bg-gradient-to-b from-green-800  to-green-500 bg-clip-text text-transparent text-lg md:text-xl font-semibold'>Our Services</h1>
-        <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-center mb-4'>Suited for every scenario</h1>
+        <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-center'>Suited for every scenario</h1>
       </div>
 
       {servicescontent.map((service) => (
-        <div key={service.id} className='w-full md:w-11/12 mx-auto min-h-fit md:min-h-[30rem] sticky top-24 md:top-28 lg:top-36 bg-white border'>
+        <div key={service.id} className='w-full md:w-11/12 mx-auto min-h-fit md:min-h-[30rem] sticky top-24 md:top-28 lg:top-40 bg-white border'>
           <div className='w-full h-full flex flex-col md:flex-row'>
             <div className='w-full md:w-1/3 py-4 md:py-0'>
               <div className='w-40 sm:w-48 md:w-60 mx-auto h-auto'>

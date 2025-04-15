@@ -382,7 +382,7 @@ import {
 } from "@/Components/ui/resizable-navbar";
 import Image from "next/image";
 
-import { getCalApi } from "@calcom/embed-react";
+// import { getCalApi } from "@calcom/embed-react";
 import { useState, useEffect } from "react";
 
 export default function NavbarDemo() {
@@ -410,13 +410,13 @@ export default function NavbarDemo() {
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi({ "namespace": "15min" });
-      cal("floatingButton", { "calLink": "dinesh-siva-ttvmmp/15min", "config": { "layout": "month_view" } });
-      cal("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
-    })();
-  }, [])
+  // useEffect(() => {
+  //   (async function () {
+  //     const cal = await getCalApi({ "namespace": "15min" });
+  //     cal("floatingButton", { "calLink": "dinesh-siva-ttvmmp/15min", "config": { "layout": "month_view" } });
+  //     cal("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
+  //   })();
+  // }, [])
   return (
     <div className="w-full sticky top-0 z-50">
       <Navbar>
@@ -429,8 +429,7 @@ export default function NavbarDemo() {
               <button
                 className={`w-[45px] h-[45px] bg-gray-300 flex items-center justify-center rounded-full cursor-pointer border-none group`}
               >
-                <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="logo" width={30} height={30} />
-
+                <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="Dezprox_logo" width={30} height={30} />
               </button>
             </a>
           </div>
@@ -474,7 +473,7 @@ export default function NavbarDemo() {
                   <button
                     className={`w-[45px] h-[45px] bg-gray-300 flex items-center justify-center rounded-full cursor-pointer border-none group `}
                   >
-                    <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="logo" width={30} height={30} />
+                    <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744609090/whatsapp-svgrepo-com_a4duty.svg" alt="Dezprox_whatsapp_icon" width={30} height={30} />
 
                   </button>
                   <h1 className="text-green-500">WhatsApp</h1>

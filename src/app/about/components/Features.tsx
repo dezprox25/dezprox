@@ -68,14 +68,14 @@ const FeaturesOne = () => {
                     height={500}
                     src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021994/AI-PoweredInsights_vlsxky.png"
                     className="object-contain w-full aspect-[3.12]"
-                    alt="Data insights visualization"
+                    alt="dezprox Data insights visualization"
                   />
                   <div className="flex flex-col items-stretch mt-4 md:mt-6 lg:mt-7 px-4 md:px-6 lg:px-8">
                     <h3 className="text-[rgba(2,10,15,1)] text-[15px] font-medium leading-[1.4]">
                       Data insights
                     </h3>
                     <p className="text-[rgba(80,86,93,1)] text-[15px] font-normal leading-[21px] mt-3">
-                      Make smarter, more informed decisions with powerful and actionable data insights, designed to 
+                      Make smarter, more informed decisions with powerful and actionable data insights, designed to
                       empower your business with the tools needed to drive growth, efficiency, and success.
                     </p>
                   </div>
@@ -88,14 +88,14 @@ const FeaturesOne = () => {
                     height={1000}
                     src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021995/Collaboratetogether_jjfexp.png"
                     className="object-contain w-full aspect-[1.5]"
-                    alt="Collaboration illustration"
+                    alt="dezprox Collaboration illustration"
                   />
                   <div className="flex flex-col items-stretch mt-4 md:mt-6 lg:mt-7 px-4 md:px-6 lg:px-8">
                     <h3 className="text-[rgba(2,10,15,1)] text-[15px] font-medium leading-[1.4]">
                       Collaborate together
                     </h3>
                     <p className="text-[rgba(80,86,93,1)] text-[15px] font-normal leading-[21px] mt-3">
-                      Collaborate with your team, share updates 
+                      Collaborate with your team, share updates
                       instantly, and achieve your goals faster.
                     </p>
                   </div>
@@ -115,7 +115,7 @@ const FeaturesOne = () => {
                       height={1000}
                       src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021994/EffortlessIntegrations_jpv7s2.png"
                       className="absolute h-full w-full object-cover inset-0"
-                      alt="Command menu background"
+                      alt=" dezprox Command menu background"
                     />
                   </div>
                   <div className="flex flex-col items-stretch text-[15px] mt-4 md:mt-6 lg:mt-7 px-4 md:px-6 lg:px-8">
@@ -123,7 +123,7 @@ const FeaturesOne = () => {
                       App shortcuts
                     </h3>
                     <p className="text-[rgba(80,86,93,1)] font-normal leading-[21px] mt-3">
-                      Save time, boost efficiency, and focus on 
+                      Save time, boost efficiency, and focus on
                       what truly matters for you.
                     </p>
                   </div>
@@ -136,14 +136,14 @@ const FeaturesOne = () => {
                     height={1000}
                     src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021993/SmartAutomation_beb9wa.png"
                     className="object-contain w-full aspect-[1.49]"
-                    alt="Integrations illustration"
+                    alt="dezprox Integrations illustration"
                   />
                   <div className="flex flex-col items-stretch mt-4 md:mt-6 lg:mt-7 px-4 md:px-6 lg:px-8">
                     <h3 className="text-[rgba(2,10,15,1)] text-[15px] font-medium leading-[1.4]">
                       Seamless integrations
                     </h3>
                     <p className="text-[rgba(80,86,93,1)] text-[15px] font-normal leading-[21px] mt-3">
-                      Seamlessly connect your favorite apps and 
+                      Seamlessly connect your favorite apps and
                       platforms with our powerful integrations.
                     </p>
                   </div>
@@ -157,7 +157,7 @@ const FeaturesOne = () => {
                       height={500}
                       src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021993/ScalableAdaptiveSolutions_d93nzu.png"
                       className="aspect-[1.27] object-contain w-full"
-                      alt="Smart widgets illustration"
+                      alt="dezprox Smart widgets illustration"
                     />
                   </div>
                   <div className="flex flex-col items-stretch text-[15px] mt-4 md:mt-6 lg:mt-7 px-4 md:px-6 lg:px-8">
@@ -165,7 +165,7 @@ const FeaturesOne = () => {
                       Smart widgets
                     </h3>
                     <p className="text-[rgba(80,86,93,1)] font-normal leading-[21px] mt-3">
-                      Provides real-time data, actionable insights, 
+                      Provides real-time data, actionable insights,
                       and key metrics at a glance.
                     </p>
                   </div>
