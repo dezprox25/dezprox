@@ -383,7 +383,7 @@ import {
 import Image from "next/image";
 
 import { getCalApi } from "@calcom/embed-react";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function NavbarDemo() {
   const navItems = [
@@ -412,8 +412,8 @@ export default function NavbarDemo() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi({ "namespace": "15min" });
-      cal("floatingButton", { "calLink": "dinesh-siva-ttvmmp/15min", "config": { "layout": "month_view" } });
+      const cal = await getCalApi({ "namespace": "30min" });
+      cal("floatingButton", { "calLink": "dezprox-slotb7/30min", "config": { "layout": "month_view" } });
       cal("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
     })();
   }, [])
