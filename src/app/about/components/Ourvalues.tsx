@@ -5,7 +5,7 @@ const Ourvalues = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-16 mb-20  sm:px-6 lg:px-8">
       {/* Header with icon */}
-      <div className="flex justify-center items-center mb-8">
+      <div className="flex justify-center items-center mb-3">
         <span className="text-green-400 gap-2 font-medium text-xl flex items-center">
           <svg
             width="17"
@@ -75,7 +75,7 @@ const Ourvalues = () => {
       </div>
 
       {/* Main heading */}
-      <TextGenerateEffect words="Our core values" as="h2" className="text-5xl font-bold text-center mb-6"/>
+      <TextGenerateEffect words="Our core values" as="h2" className="text-4xl md:text-5xl font-semibold mb-4 mx-auto text-center"/>
 
       {/* Subheading/description */}
       <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16">

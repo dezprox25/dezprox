@@ -7,7 +7,6 @@ import Ourvalues from './components/Ourvalues'
 import Features from './components/Features'
 import Ourteam from './components/Ourteam'
 import FaqSection from '../home/components/Faqsection'
-import Footertop from '../home/components/Footertop'
 
 
 const Page = () => {
@@ -20,7 +19,6 @@ const Page = () => {
       <Features />
       <Ourteam />
       <FaqSection />
-      <Footertop />
     </div >
   )
 }

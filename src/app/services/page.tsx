@@ -5,7 +5,6 @@ import OurServicesSection from './components/Ourservices'
 import Standout from './components/Standout'
 import Whoisfor from './components/Whoisfor'
 import FaqSection from '../home/components/Faqsection'
-import Footertop from '../home/components/Footertop'
 
 const Page = () => { 
   return (
@@ -15,7 +14,7 @@ const Page = () => {
       <Standout />
       <Whoisfor />
       <FaqSection />
-      <Footertop />
+ 
     </div>
   )
 }

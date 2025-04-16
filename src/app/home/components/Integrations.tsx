@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
 
 
 
@@ -187,9 +188,11 @@ const FavouriteTools = () => {
         <div className="lg:w-1/2 min-h-[40rem] flex flex-col justify-center items-center">
           <div className="space-y-3">
             <h3 className="text-green-600 font-medium">Integrations</h3>
-            <h2 className="lg:text-5xl text-2xl font-bold mt-4 mb-4">
+            {/* <h2 className="lg:text-5xl text-2xl font-bold mt-4 mb-4">
               Powerfull Tools for<br /> Digital Excellence
-            </h2>
+            </h2> */}
+
+            <TextGenerateEffect  words="Powerfull Tools for Digital Excellence" className="text-4xl md:text-5xl font-semibold mb-4 w-[30rem]" />
             <p className="text-gray-600 mb-8">
               Enhance productivity, streamline processes, and keep<br />
               everything connected without disrupting.

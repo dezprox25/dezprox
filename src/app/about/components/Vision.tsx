@@ -213,7 +213,7 @@ const Vision = () => {
               onClick={() => toggleSection('mission')}
             >
               <motion.h2
-                className="text-green-600 font-semibold text-2xl sm:text-3xl md:text-4xl"
+                className={`font-semibold text-2xl sm:text-3xl md:text-4xl ${openSection === 'mission' ? 'text-green-600' : ''}`}
                 whileHover={{ x: 4 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
@@ -253,7 +253,7 @@ const Vision = () => {
               onClick={() => toggleSection('vision')}
             >
               <motion.h2
-                className="text-gray-900 font-semibold text-2xl sm:text-3xl md:text-4xl "
+                className={`font-semibold text-2xl sm:text-3xl md:text-4xl ${openSection === 'vision' ? 'text-green-600' : ''}`}
                 whileHover={{ x: 4 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
@@ -287,7 +287,7 @@ const Vision = () => {
           </Collapsible>
 
           <div className="w-full h-[3px] mt-10 bg-gray-300 overflow-hidden">
-            <div className="h-full w-1/2 bg-black"></div>
+            <div className={`h-full w-1/2  ${openSection === 'vision' ? 'bg-green-600' : 'bg-black'}`}></div>
           </div>
         </div>
 

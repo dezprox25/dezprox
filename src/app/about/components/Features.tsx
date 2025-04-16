@@ -51,7 +51,7 @@ const FeaturesOne = () => {
                 <Title text="Features" />
               </span>
             </div>
-            <TextGenerateEffect words="Features Designed to Elevate Your Experience" className="text-[rgba(2,10,15,1)] text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight mt-6 md:mt-8 lg:mt-[33px]" />
+            <TextGenerateEffect words="Features Designed to Elevate Your Experience" className="text-4xl md:text-5xl font-semibold mb-4 mx-auto text-center" />
             <p className="text-[rgba(80,86,93,1)] text-base lg:text-[19px] font-normal leading-relaxed mt-4 md:mt-6 lg:mt-[30px]">
               Stay ahead with tools that prioritize your needs, integrating <br className="hidden md:block" />
               insights and efficiency into one powerful platform.

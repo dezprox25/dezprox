@@ -2,9 +2,7 @@
 import React, { useState } from "react";
 import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
 import { motion, AnimatePresence } from "framer-motion";
-import IconCheck from './IconCheck';
-import Image from "next/image";
-
+import IconCheck from "./IconCheck";
 
 const Whoisfor = () => {
   const categories = [
@@ -13,7 +11,7 @@ const Whoisfor = () => {
       title: "Multiply your agency output without multiplying your overhead costs.",
       description:
         "Overwhelmed? Overworked? Not anymore! Our vetted designers handle your design requests, freeing you up to focus on growing your business and delivering results for your clients.",
-      image: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744024121/Agency_kvz4jg.png",
+      image: "https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105162/Agency_v5uyxd.png",
       features: [
         "Save time and money on creative production",
         "Scale up and down as needed",
@@ -25,7 +23,7 @@ const Whoisfor = () => {
       title: "Grow your business with flexible and cost-effective solutions.",
       description:
         "Our services are designed to help small and medium-sized businesses compete effectively with high-quality digital solutions.",
-      image: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744024339/collabrate_nwplzi.png",
+      image: "https://res.cloudinary.com/do7dw5dwq/image/upload/v1744024365/collabrate_n0fz4k.png",
       features: [
         "Affordable and scalable services",
         "Expert support tailored to your needs",
@@ -64,9 +62,9 @@ const Whoisfor = () => {
     <div className="max-w-6xl mx-auto px-4 py-16">
       {/* Heading */}
       <div className="text-center mb-8">
-        <h3 className="text-green-600 font-medium mb-4">Who is it for?</h3>
+        <h3 className="bg-gradient-to-b from-green-800  to-green-500 bg-clip-text text-transparent text-xl font-medium mb-4">Who is it for?</h3>
         <TextGenerateEffect
-          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6"
+          className="text-4xl md:text-5xl font-semibold mb-4"
           words="It's Designed For"
         />
         <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg">
@@ -82,10 +80,11 @@ const Whoisfor = () => {
           <button
             key={index}
             onClick={() => setSelectedCategory(category)}
-            className={`py-2 px-4 sm:px-6 rounded-full transition-all cursor-pointer text-sm sm:text-base ${selectedCategory.label === category.label
-              ? "bg-gradient-to-b from-green-600 to-green-700 text-white"
-              : "bg-white border border-gray-300 text-gray-700"
-              }`}
+            className={`py-2 px-4 sm:px-6 rounded-full transition-all cursor-pointer text-sm sm:text-base ${
+              selectedCategory.label === category.label
+                ? "bg-gradient-to-b from-green-600 to-green-700 text-white"
+                : "bg-white border border-gray-300 text-gray-700"
+            }`}
           >
             {category.label}
           </button>
@@ -113,8 +112,8 @@ const Whoisfor = () => {
             <ul className="space-y-4">
               {selectedCategory.features.map((feature, index) => (
                 <li key={index} className="flex items-start">
-                  <div className="">
-                    <IconCheck />
+                  <div className="space-y-2 mr-3">
+                  <IconCheck/>
                   </div>
                   <span className="font-medium text-gray-800 uppercase text-xs sm:text-sm">
                     {feature}
@@ -132,11 +131,9 @@ const Whoisfor = () => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.5 }}
-              className="rounded-lg overflow-hidden bg-gray-100 h-full min-h-[400px]"
+              className="rounded-lg overflow-hidden  h-full min-h-[400px]"
             >
-              <Image
-                width={500}
-                height={500}
+              <img
                 src={selectedCategory.image}
                 alt={selectedCategory.label}
                 className="w-full h-auto object-cover"

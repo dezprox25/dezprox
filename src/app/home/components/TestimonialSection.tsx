@@ -338,7 +338,7 @@ export default function TestimonialSection2() {
       <div className="text-center mb-8">
         <p className="text-green-500 font-medium mb-2">Testimonials</p>
         {/* <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Powerful Finance Reporting</h2> */}
-        <TextGenerateEffect words="Voices of Trust" className="text-3xl md:text-4xl font-bold text-gray-900" as="h1" />
+        <TextGenerateEffect words="Voices of Trust" className="text-4xl md:text-5xl font-semibold mb-4 w-[30rem] mx-auto" as="h1" />
       </div>
 
       {/* Testimonial Content */}

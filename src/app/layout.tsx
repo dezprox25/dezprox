@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./home/components/Navbar";
 import Fotter from './home/components/Fotter'
+import Footertop from "./home/components/Footertop";
+import SmoothScrolling from "@/globls/smooth-scrolling";
+
 
 
 const geistSans = Geist({
@@ -29,9 +32,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
-        <main className="">
-          {children}
-        </main>
+        <SmoothScrolling>
+          <main className="">
+            {children}
+          </main>
+        </SmoothScrolling>
+        <Footertop />
         <Fotter />
       </body>
     </html>

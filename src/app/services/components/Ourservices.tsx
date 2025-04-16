@@ -158,7 +158,7 @@ const OurServicesSection = () => {
         <div className="text-center mb-16 space-y-3">
           <Title text="Our Services" />
 
-          <TextGenerateEffect className='text-4xl md:text-5xl font-bold mb-6' words="Crafting Digital Experiences That Matter" />
+          <TextGenerateEffect className='text-4xl md:text-5xl font-semibold mb-4' words="Crafting Digital Experiences That Matter" />
 
           <p className="text-gray-700 max-w-3xl mx-auto text-lg">
             At Dezprox, we design and develop impactful digital experiences that elevate brands,

@@ -200,6 +200,7 @@
 "use client";
 import React from 'react'
 import { motion } from "framer-motion";
+import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
 import { Users, Code2, Rocket, Database } from 'lucide-react'
 
 const Servicessection = () => {
@@ -409,7 +410,9 @@ const Servicessection = () => {
     <section className='min-h-screen w-full bg-[#f6fff7] p-3 md:p-5 space-y-3 md:space-y-5'>
       <div className='flex flex-col justify-center items-center sticky top-16  py-4'>
         <h1 className='bg-gradient-to-b from-green-800  to-green-500 bg-clip-text text-transparent text-lg md:text-xl font-semibold'>Our Services</h1>
-        <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-center'>Suited for every scenario</h1>
+        {/* <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-center'>Suited for every scenario</h1> */}
+         <TextGenerateEffect words="Suited for every scenario" className="text-4xl md:text-5xl font-semibold mb-4" />
+        
       </div>
 
       {servicescontent.map((service) => (

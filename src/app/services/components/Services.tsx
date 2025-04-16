@@ -64,13 +64,15 @@ const Services = () => {
       <div className="relative z-10 text-center max-w-[800px]">
         <Title text="Services" />
         <div className="mb-6">
-          <h2 className="text-black text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold mb-2">
-            Where
-            <span className="bg-gradient-to-b from-green-800  to-green-500 bg-clip-text text-transparent">
+          <div className="flex  gap-4 items-center justify-center ">
+            <h2 className="text-black h-20 text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold">
+              Where
+            </h2>
+            <h2 className="text-6xl  h-20 max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold  bg-gradient-to-b from-green-800  to-green-500 bg-clip-text text-transparent">
               technology
-            </span>
-          </h2>
-          <h2 className="text-black text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold mb-2">
+            </h2>
+          </div>
+          <h2 className="text-black text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold -mt-4 mb-2">
             meets opportunity
           </h2>
         </div>
@@ -78,7 +80,7 @@ const Services = () => {
           Our mission is to bridge the gap between complexity and efficiency, ensuring every organization can thrive in a digital-first world.
         </p>
       </div>
-      <div className="relative flex flex-col sm:flex-row items-center mt-6">
+      {/* <div className="relative flex flex-col sm:flex-row items-center mt-6">
         <Button
           asChild
           variant="default"
@@ -86,7 +88,7 @@ const Services = () => {
         >
           <Link href="#">Our Services</Link>
         </Button>
-      </div>
+      </div> */}
 
     </section>
   );

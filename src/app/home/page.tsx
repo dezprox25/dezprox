@@ -9,9 +9,7 @@ import Productsection from './components/Productsection'
 import Whychooseus from './components/Whychooseus'
 import Testimonialsection from './components/TestimonialSection'
 import Faqsection from './components/Faqsection'
-// import FavouriteTools from './components/Favtool'
 import Integration from './components/Integrations'
-import Footertop from './components/Footertop'
 
 const Page = () => {
 
@@ -29,7 +27,7 @@ const Page = () => {
       <Integration/>
       <Testimonialsection />
       <Faqsection />
-      <Footertop />
+     
     </div>
   )
 }
