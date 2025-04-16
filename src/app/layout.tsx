@@ -5,6 +5,8 @@ import Navbar from "./home/components/Navbar";
 import Fotter from './home/components/Fotter'
 import Footertop from "./home/components/Footertop";
 import SmoothScrolling from "@/globls/smooth-scrolling";
+import Head from 'next/head';
+
 
 
 
@@ -31,6 +33,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Head>
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+        </Head>
         <Navbar />
         <SmoothScrolling>
           <main className="">

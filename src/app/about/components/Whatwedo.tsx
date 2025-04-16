@@ -120,7 +120,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building responsive websites.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Graphic_Design_1_bqyhes.png" alt="Icon" className="h-64" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Graphic_Design_1_bqyhes.png" alt="Icon" className="h-64" />
           </div>
         </div>
 

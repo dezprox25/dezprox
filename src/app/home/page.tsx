@@ -10,6 +10,7 @@ import Whychooseus from './components/Whychooseus'
 import Testimonialsection from './components/TestimonialSection'
 import Faqsection from './components/Faqsection'
 import Integration from './components/Integrations'
+// import OpenAi from './components/openai'
 
 const Page = () => {
 
@@ -17,6 +18,7 @@ const Page = () => {
   return (
     <div className='min-h-screen'>
       <Herosection />
+      {/* <OpenAi/> */}
       <Ourfeature />
       <Aboutsection />
       <Whoweare />

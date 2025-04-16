@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Ripple } from "@/Components/magicui/ripple";
 import Image from "next/image";
 
-export default function Thirdhome() {
+export default function Herosection() {
     return (
         <>
             <div className="relative w-full flex min-h-screen items-center justify-center px-4 py-10 bg-transparent overflow-hidden">

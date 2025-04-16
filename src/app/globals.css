@@ -171,3 +171,27 @@
   .team-member-card::-webkit-scrollbar {
     display: none;
   }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+  }
+  
+  h1, h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+  }
+  .hero-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero-highlight {
+    color: #2BA84A; /* example green */
+    font-weight: 700;
+  }
+  
+  .hero-sub {
+    font-weight: 600;
+  }
