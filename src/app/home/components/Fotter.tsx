@@ -2,6 +2,7 @@
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import FloatingDockDemo from "./FloatingDockDemo";
 
 const services = [
   { id: 1, name: "Service A" },
@@ -110,7 +111,8 @@ const FooterSection = () => {
             © {new Date().getFullYear()} Dezprox. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FloatingDockDemo />
+            {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <span className="text-gray-400 hover:text-white">Facebook</span>
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -118,7 +120,7 @@ const FooterSection = () => {
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <span className="text-gray-400 hover:text-white">LinkedIn</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </footer>

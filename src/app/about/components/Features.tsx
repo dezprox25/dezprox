@@ -64,7 +64,7 @@ const FeaturesOne = () => {
               <div className="md:col-span-8 lg:col-span-8">
                 <article className="bg-white shadow-[0px_0px_0px_1px_rgba(103,103,103,0.08)] overflow-hidden rounded-2xl pb-6 lg:pb-[34px]">
                   <Image
-                    width={500}
+                    width={1000}
                     height={500}
                     src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021994/AI-PoweredInsights_vlsxky.png"
                     className="object-contain w-full aspect-[3.12]"
