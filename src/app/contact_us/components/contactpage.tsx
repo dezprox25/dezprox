@@ -163,7 +163,7 @@ const ContactPage = () => {
   const [Newsletter] = useState('No'); // or "Yes" if you want to default-subscribe
   const [result, setResult] = useState('');
   const [loading, setLoading] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [, setIsSubmitted] = useState(false);
   const [thankYouVisible, setThankYouVisible] = useState(false);
 
   const formRef = useRef<HTMLFormElement>(null);

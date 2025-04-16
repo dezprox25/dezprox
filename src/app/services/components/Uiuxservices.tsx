@@ -94,6 +94,7 @@ import React, { useEffect } from "react";
 import IconCheck from "./IconCheck";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 const UiUx_services = () => {
   useEffect(() => {
     AOS.init({
@@ -109,7 +110,7 @@ const UiUx_services = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left Content - Placeholder Image */}
           <div className="w-full md:w-1/2">
-            <div className=" rounded-lg h-full min-h-[400px]"><img src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/UiUx_bw9bih.png" alt="" srcSet="" /></div>
+            <div className=" rounded-lg h-full min-h-[400px]"><Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/UiUx_bw9bih.png" alt="UiUx"  /></div>
           </div>
 
           {/* Right Content */}

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { TextGenerateEffect } from "@/Components/ui/text-generate-effect";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import IconCheck from "./IconCheck";
 
 const Whoisfor = () => {
@@ -133,7 +134,7 @@ const Whoisfor = () => {
               transition={{ duration: 0.5 }}
               className="rounded-lg overflow-hidden  h-full min-h-[400px]"
             >
-              <img
+              <Image
                 src={selectedCategory.image}
                 alt={selectedCategory.label}
                 className="w-full h-auto object-cover"
