@@ -67,9 +67,9 @@ const FooterSection = () => {
             <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-auto">
               <h2 className="text-xl font-medium mb-4">{section.title}</h2>
               <nav className="flex flex-col gap-2">
-                {section.links.map((linkObj) => (
+                {section.links.map((linkObj, idx) => (
                   <Link
-                    key={linkObj.link}
+                    key={`${linkObj.link}-${linkObj.name}-${idx}`}
                     href={linkObj.link}
                     className={cn(
                       'text-gray-400 hover:text-white transition duration-200',

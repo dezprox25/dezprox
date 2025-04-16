@@ -131,7 +131,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Designing user-friendly interfaces.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/ui-ux_service_1_vdgmna.png" alt="Icon" className="h-60" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/ui-ux_service_1_vdgmna.png" alt="Icon" className="h-60" />
           </div>
         </div>
 
@@ -142,7 +142,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building scalable online stores.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Web_Development_1_ccglso.png" alt="Icon" className="h-60 w-72" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Web_Development_1_ccglso.png" alt="Icon" className="h-60 w-72" />
           </div>
         </div>
 
@@ -153,7 +153,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Boosting online presence.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/App_Development_1_lrtgsw.png" alt="Icon" className="h-48" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/do7dw5dwq/image/upload/v1744021671/App_Development_1_lrtgsw.png" alt="Icon" className="h-48" />
           </div>
         </div>
 
@@ -164,7 +164,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Crafting unique identities.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Content_Creation_1_og1o1h.png" alt="Icon" className="h-56" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Content_Creation_1_og1o1h.png" alt="Icon" className="h-56" />
           </div>
         </div>
 
@@ -175,7 +175,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Building powerful apps.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Digital_Marketing_2_cwm0q8.png" alt="Icon" className="h-56" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Digital_Marketing_2_cwm0q8.png" alt="Icon" className="h-56" />
           </div>
         </div>
 
@@ -186,7 +186,7 @@ export default function WhatWeDo() {
             <p className="text-md text-[#8C8C8C]">Ensuring smooth performance.</p>
           </div>
           <div className="absolute bottom-0 right-0">
-            <Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Students_Projects_1_l61qsv.png" alt="Icon" className="h-64" />
+            <Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/Students_Projects_1_l61qsv.png" alt="Icon" className="h-64" />
           </div>
         </div>
       </div>

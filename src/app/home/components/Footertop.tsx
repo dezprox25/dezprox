@@ -7,10 +7,10 @@ const Footertop = () => {
         <div className="flex flex-col items-center bg-[linear-gradient(180deg,#227631_0%,#3FA740_100%)] p-6 rounded-[30px_30px_0px_0px] max-md:px-6 max-sm:px-4">
             <div className="flex justify-center items-center gap-[57px] w-full max-w-[1200px] max-md:flex-col max-md:gap-8">
                 <div className="flex flex-col w-full max-w-[750px] pt-[79px] max-md:pt-10 max-sm:pt-6">
-                    <h1 className="text-white text-5xl font-bold leading-[52.8px] tracking-[-2.4px] mb-4 max-md:text-[40px] max-md:leading-[44px] max-sm:text-[32px] max-sm:leading-[35.2px]">
+                    <h1 className="text-white text-5xl  font-bold leading-[52.3px] tracking-[2.4px] mb-4 max-md:text-[40px] max-md:leading-[44px] max-sm:text-[32px] max-sm:leading-[35.2px]">
                         Ready to Transform Your Business with Dezprox?
                     </h1>
-                    <p className="text-white text-lg font-medium leading-[25.2px] tracking-[-0.18px] max-w-[451px] mb-[19px] max-md:text-base max-md:leading-[22.4px] max-sm:text-sm max-sm:leading-[19.6px]">
+                    <p className="text-white text-lg font-medium leading-[25.2px] tracking-[0.18px] max-w-[451px] mb-[19px] max-md:text-base max-md:leading-[22.4px] max-sm:text-sm max-sm:leading-[19.6px]">
                         Take the next step toward smarter automation, better customer
                         management, and data-driven decisions.
                     </p>

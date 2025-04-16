@@ -422,11 +422,7 @@ const Whoweare = () => {
 
 
   return (
-    <main className="bg-white font-['Inter',sans-serif]">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
+    <main className="bg-white ">
       <div className="max-w-[1200px] mx-auto px-5 py-[60px]">
         {/* Header */}
         <header className="text-center mb-[20px]">
