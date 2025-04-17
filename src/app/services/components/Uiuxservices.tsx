@@ -110,7 +110,7 @@ const UiUx_services = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left Content - Placeholder Image */}
           <div className="w-full md:w-1/2">
-            <div className=" rounded-lg h-full min-h-[400px]"><Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/UiUx_bw9bih.png" alt="UiUx"  /></div>
+            <div className=" rounded-lg h-full min-h-[400px]"><Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105165/UiUx_bw9bih.png" alt="UiUx"  /></div>
           </div>
 
           {/* Right Content */}

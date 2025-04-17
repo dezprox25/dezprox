@@ -135,6 +135,8 @@ const Whoisfor = () => {
               className="rounded-lg overflow-hidden  h-full min-h-[400px]"
             >
               <Image
+              width={800}
+              height={800}
                 src={selectedCategory.image}
                 alt={selectedCategory.label}
                 className="w-full h-auto object-cover"

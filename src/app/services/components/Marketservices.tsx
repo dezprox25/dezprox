@@ -201,7 +201,7 @@ const Marketing_services = () => {
 
           {/* Right Content - Placeholder Image */}
           <div className="w-full md:w-1/2 mt-8 md:mt-0">
-            <div className=" rounded-lg h-full min-h-[400px]"><Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105164/Marketing_ocyjvu.png" alt="" /></div>
+            <div className=" rounded-lg h-full min-h-[400px]"><Image width={500} height={500} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105164/Marketing_ocyjvu.png" alt="" /></div>
           </div>
         </div>
       </div>

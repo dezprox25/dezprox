@@ -203,7 +203,7 @@ const AppDevelopement_services = () => {
 
           {/* Right Content - Placeholder Image */}
           <div className="w-full md:w-1/2 mt-8 md:mt-0">
-            <div className="rounded-lg h-full min-h-[400px]"><Image src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Appdevelopment_pueeaq.png" alt="" /></div>
+            <div className="rounded-lg h-full min-h-[400px]"><Image width={800} height={800} src="https://res.cloudinary.com/dwcvkrrpz/image/upload/v1744105163/Appdevelopment_pueeaq.png" alt="App development" /></div>
           </div>
         </div>
       </div>

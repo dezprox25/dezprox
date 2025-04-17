@@ -32,10 +32,11 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="google-site-verification" content="Rn9IexP0u-qIyYNdioiPVKGBTYcJGWjKQYNsqye7mXo" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
-        </Head>
         <Navbar />
         <SmoothScrolling>
           <main className="">
